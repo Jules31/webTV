@@ -54,7 +54,7 @@
 							<li> Streamer</li>
 							<li role="separator" class="divider"></li>
 							<?php
-									$base = mysql_connect ('localhost', 'root', '');
+									$base = mysql_connect ('localhost', 'webtv', 'webtv');
 									mysql_select_db ('webtv', $base) ;
 									$sql = 'SELECT * FROM streamer WHERE afficher=1';
 									$req = mysql_query($sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
@@ -85,7 +85,7 @@
 					<div class="col-md-12">
 						<div class="col-md-8 col-md-offset-2">
 							<?php
-							$base = mysql_connect ('localhost', 'root', '');
+							$base = mysql_connect ('localhost', 'webtv', 'webtv');
 							mysql_select_db ('webtv', $base) ;
 							$sql = 'SELECT * FROM news';
 							$req = mysql_query($sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());

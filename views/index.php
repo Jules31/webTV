@@ -54,12 +54,8 @@
 							<li> Streamer</li>
 							<li role="separator" class="divider"></li>
 							<?php
-									$base = mysql_connect ('localhost', 'root', '');
-									mysql_select_db ('webtv', $base) ;
-									$sql = 'SELECT * FROM streamer WHERE afficher=1';
-									$req = mysql_query($sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
-									while ($data = mysql_fetch_array($req)) {
-										echo '<li><a  href=?stream='.$data['lien'].' onclick="">'.$data['nom'].'</a></li>';
+									foreach($streamersAfficher as $streamer) {
+										echo '<li><a  href=?stream='.$streamer->lien.' onclick="">'.$streamer->nom.'</a></li>';
 									}
 								?>
 								<li role="separator" class="divider"></li>
@@ -82,7 +78,7 @@
 			<div class="col-md-12">
 				<div class="row titre padding-left">
 					WebTV / Live /
-					<?php echo $_GET['stream']?>
+					<?php if (isset($_GET['stream'])) { echo $_GET['stream']; } ?>
 				</div>
 				<div class="row">
 					<div class="col-md-8">
@@ -109,12 +105,8 @@
 							<hr class="line">
 							<div class="titre">Description</div>
 							<?php
-									$base = mysql_connect ('localhost', 'root', '');
-									mysql_select_db ('webtv', $base) ;
-									$sql = 'SELECT * FROM streamer';
-									$req = mysql_query($sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
-									while ($data = mysql_fetch_array($req)) {
-										echo ':'.$data['description'];
+									foreach($streamers as $streamer) {
+										echo ':' . $streamer->description;
 									}
 								?>
 								<hr class="line">
