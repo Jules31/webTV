@@ -1,0 +1,29 @@
+body {
+	background-image: url("payday-2-37290-wp.jpg");
+}
+
+.myButton {
+	background-color:#616161;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding:6px 20px;
+	text-decoration:none;
+	float: right;
+
+}
+.myButton:hover {
+	background-color:#2ec920;
+}
+.myButton:active {
+	position:relative;
+	top:0px;
+}
+
+
+
