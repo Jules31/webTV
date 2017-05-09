@@ -7,7 +7,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand page-scroll" href="<?php echo site_url('welcome/index'); ?>">WebTV</a>
+				<a class="navbar-brand page-scroll" href="<?php echo site_url('welcome/index'); ?>">Spweek</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">

@@ -2,6 +2,20 @@
     font-family: Arial, Constantia, Century, Cambria;
 }
 
+.social-liste{
+    display: inline-block;
+}
+
+
+li{
+    display: inline-block;
+}
+
+
+.icon-social{
+    display: inline-block;
+}
+
 .base {
     background-image: url("payday-2-37290-wp.jpg");
 }
