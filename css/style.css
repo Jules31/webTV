@@ -207,6 +207,8 @@ a:hover {
 
 .footez {
     background-image: url("foudre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footez .myButton {
@@ -269,6 +271,7 @@ a:hover {
 .ladyezkay {
     background-image: url('background.png');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     background-color: black;
 }
