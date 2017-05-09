@@ -1,0 +1,360 @@
+* {
+    font-family: Arial, Constantia, Century, Cambria;
+}
+
+.base {
+    background-image: url("payday-2-37290-wp.jpg");
+}
+
+.base .myButton {
+    background-color: #616161;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.base .myButton:hover {
+    background-color: #2ec920;
+}
+
+.base .myButton:active {
+    position: relative;
+    top: 0px;
+}
+
+
+/* partie de gaara */
+
+.gaara {
+    background-image: url("nuages.jpg");
+    color: white;
+}
+
+.gaara .myButton {
+    background-color: #616161;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.gaara .myButton:hover {
+    background-color: #2ec920;
+}
+
+.gaara .myButton:active {
+    position: relative;
+    top: 0px;
+}
+
+.gaara .navbar-default {
+    background-color: #2D2B30;
+    border-bottom: 3px solid #3E3E3E;
+    border-top: #2D2B30;
+    border-right: #2D2B30;
+    border-left: #2D2B30;
+}
+
+.gaara .navbar-default .navbar-brand {
+    color: #E2E2E2;
+    font-size: 30px;
+}
+
+.gaara .navbar-default .navbar-nav>li>a {
+    color: #E2E2E2;
+    font-size: 17px;
+}
+
+.gaara .navbar-default .navbar-nav>li>a:hover,
+.gaara .navbar-default .navbar-nav>li>a:focus {
+    color: #D80905;
+}
+
+.gaara .navbar-default .navbar-nav>.active>a,
+.gaara .navbar-default .navbar-nav>.active>a:hover,
+.gaara .navbar-default .navbar-nav>.active>a:focus {
+    color: red;
+    background-color: #3E3E3E;
+}
+
+
+/* partie d'evan */
+
+.evan {
+    background-color: #FFE1C2;
+}
+
+.evan .myButton {
+    background-color: #AD7945;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #D8CEA0;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.evan .myButton:hover {
+    background-color: #CAA37B;
+    color: #D8CEA0;
+}
+
+.evan .myButton:active {
+    position: relative;
+    top: 0px;
+}
+
+.evan,
+a:hover {
+    text-decoration: none;
+}
+
+.evan .navbar-default {
+    background-color: #AD7945;
+    /*border-top-right-left: 1px solid #D8CEA0;*/
+    border-bottom: 3px solid #CAA37B;
+    background-image: none;
+}
+
+.evan .navbar-default .navbar-nav>.active>a,
+.evan .navbar-default .navbar-nav>.active>a:hover,
+.evan .navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #CAA37B;
+}
+
+.evan .navbar-default .navbar-brand {
+    color: #D8CEA0;
+}
+
+.evan .navbar-default .navbar-brand:hover,
+.evan .navbar-default .navbar-brand:focus {
+    color: #CAA37B;
+}
+
+.evan .navbar-default .navbar-nav>li>a {
+    color: #DEC5AB;
+}
+
+.evan a {
+    text-decoration: none;
+}
+
+.evan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.evan .container {
+    margin: 0 auto;
+    padding: 20px 50px;
+    background: #FFE1C2;
+}
+
+.evan #sticky-social {
+    left: 0;
+    position: fixed;
+    top: 150px;
+}
+
+.evan #sticky-social a {
+    background: #333;
+    color: #fff;
+    display: block;
+    height: 35px;
+    font: 16px "Open Sans", sans-serif;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 35px;
+}
+
+.evan #sticky-social a span {
+    line-height: 35px;
+    left: -120px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+
+.evan #sticky-social a:hover span {
+    left: 100%;
+}
+
+
+/* partie de footez */
+
+.footez {
+    background-image: url("foudre.jpg");
+}
+
+.footez .myButton {
+    background-color: #6AE9FF;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.footez .myButton:hover {
+    background-color: #616161;
+}
+
+.footez .myButton:active {
+    position: relative;
+    top: 0px;
+}
+
+.footez .navbar-default {
+    background-color: #2D2B30;
+    border-bottom: 3px solid #6AE9FF;
+    border-top: #2D2B30;
+    border-right: #2D2B30;
+    border-left: #2D2B30;
+}
+
+.footez .navbar-default .navbar-brand {
+    color: #E2E2E2;
+    font-size: 30px;
+}
+
+.footez .navbar-default .navbar-nav>li>a {
+    color: #E2E2E2;
+    font-size: 17px;
+}
+
+.footez .navbar-default .navbar-nav>li>a:hover,
+.footez .navbar-default .navbar-nav>li>a:focus {
+    color: #6AE9FF;
+}
+
+.footez .navbar-default .navbar-nav>.active>a,
+.footez .navbar-default .navbar-nav>.active>a:hover,
+.footez .navbar-default .navbar-nav>.active>a:focus {
+    color: black;
+    background-color: #6AE9FF;
+}
+
+
+/* partie ladyezkay */
+
+.ladyezkay {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
+}
+
+.ladyezkay .myButton {
+    background-color: #288118;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.ladyezkay .myButton:hover {
+    background-color: #27A112;
+    color: black;
+}
+
+.ladyezkay .myButton:active {
+    position: relative;
+    top: 0px;
+}
+
+body.ladyezkay {
+    background-color: black;
+    color: white;
+}
+
+.ladyezkay .container {
+    background-color: black;
+    /*margin-top: 10%;*/
+}
+
+.ladyezkay,
+a:hover {
+    text-decoration: none;
+}
+
+.ladyezkay .navbar-default {
+    background-color: black;
+    /*border-top-right-left: 1px solid black;*/
+    border-bottom: 3px solid #27A112;
+    background-image: none;
+}
+
+.ladyezkay .navbar-default .navbar-nav>.active>a,
+.ladyezkay .navbar-default .navbar-nav>.active>a:hover,
+.ladyezkay .navbar-default .navbar-nav>.active>a:focus {
+    color: #288118;
+    background-color: #78F05D;
+}
+
+.ladyezkay .navbar-default .navbar-brand {
+    color: #78F05D;
+    background-color: black;
+}
+
+.ladyezkay .navbar-default .navbar-brand:hover,
+.ladyezkay .navbar-default .navbar-brand:focus {
+    color: #78F05D;
+}
+
+.ladyezkay .navbar-default .navbar-nav>li>a {
+    color: #78F05D;
+    background-color: black;
+}
+
+.ladyezkay .navbar-default .navbar-nav>li>a:hover,
+.ladyezkay .navbar-default .navbar-nav>li>a:focus {
+    color: #78F05D;
+}
+
+.ladyezkay,
+a {
+    text-decoration: none;
+}
+
+.ladyezkay,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

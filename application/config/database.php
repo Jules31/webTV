@@ -6,9 +6,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'sql.julien-fournier.fr',
+	'hostname' => 'julien-fournier.fr',
 	'username' => 'webtv',
-	'password' => 'webtv',
+	'password' => 'eKPrGq49BUO9nDZ9',
 	'database' => 'webtv',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
