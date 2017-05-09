@@ -23,7 +23,11 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="../style.css">
-	
+	<style>
+	p.news{
+		text-align: justify;
+	}
+	</style>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <?php include('menu.php'); ?>
@@ -32,6 +36,7 @@
 		<div class="row contenu">
 			<div class="col-md-12">
 				<div class="row titre padding-left">
+				<?php if($streamer): ?>
 					WebTV / Live de <?php echo $streamer['nom']; ?>
 				</div>
 				<div class="row">
@@ -78,6 +83,17 @@
 			</div>
 		</div>
 	</div>
+	<?php else: ?>
+	<div class="row">
+	<h1> Liste des news : </h1>
+	<?php foreach ($news as $key => $new): ?>
+		<div class="col-md-6">
+			<h2><?php echo $new['titre']; ?></h2>
+			<p class="news"><?php echo $new['article']; ?></p>
+		</div>
+	<?php endforeach; ?>
+	</div>
+	<?php endif; ?>
 	<div class="container-fluid">
 		<div class="footer row">
 			<div class="col-md-8 col-md-offset-2 center">

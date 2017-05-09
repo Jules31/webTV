@@ -24,6 +24,7 @@ class Welcome extends CI_Controller {
 			$session_data = $this->session->userdata('logged_in');
 			$data['streamers'] = $this->data_model->list_streamer();
 			$data['streamer'] = $this->data_model->get_streamer_infos($streamer);
+			$data['news'] = $this->data_model->get_news();
 			$data['username'] = $session_data['username'];
 			$this->load->view('index', $data);
 		}
